@@ -19,5 +19,5 @@ resource "aws_route53_record" "frontend" {
 }
 
 variable "components" {
-  default = ["frontend", "postgresql","portfolio-service","anayltics-service", "auth-service"]
+  default = ["frontend", "postgresql","portfolio-service","anayltics-service", ]
 }
