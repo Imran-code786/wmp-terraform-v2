@@ -1,9 +1,9 @@
 apply:
 	git pull
-	git init
-	git apply -auto-approve
+	terraform init
+	terraform apply -auto-approve
 
 destroy:
 	git pull
-	git init
-	git destroy
+	terraform init
+	terraform destroy
